@@ -1,0 +1,88 @@
+[Name variants by location and give both the reference and sample alleles as in the VCF file.]
+
+Q1: Which variants are present in which samples?
+
+* Variants formated by {location}_{reference allele(s)}/{sample allele(s)}.
+
+SRR2584403_1 variants:
+  ecoli_1329520_T/G
+  ecoli_4141016_C/A
+  
+SRR2584857_1 variants:
+  ecoli_920514_T/C
+  ecoli_3931002_A/C
+  ecoli_4141441_C/T
+  ecoli_4202391_T/G
+  ecoli_4530779_CACCCTAACCCT/CACCCTAACCCTAACCCT
+  
+SRR2584404_1 variants:
+  ecoli_238917_G/T
+  ecoli_806310_ATT/AT
+  ecoli_1329520_T/G
+  ecoli_4141016_C/A
+
+SRR2584405_1 variants:
+  ecoli_15382_C/T
+  ecoli_154497_T/G
+  ecoli_254101_T/G
+  ecoli_649522_C/T
+  ecoli_692265_C/T
+  ecoli_692268_A/G
+  ecoli_708118_T/C
+  ecoli_1176010_T/G
+  ecoli_1503866_A/C
+  ecoli_1680445_A/T
+  ecoli_1680446_A/T
+  ecoli_1733754_A/T
+  ecoli_1996109_A/T
+  ecoli_1996109_A/T
+  ecoli_1996109_A/T
+  ecoli_2000253_A/T
+  ecoli_2000253_A/T
+  ecoli_2000253_A/T
+  ecoli_2020126_C/G
+  ecoli_2103919_ACAGCCAGCCAGCCAGCCAGCCAGCCAGCCAG/ACAGCCAGCCAGCCAGCCAGCCAGCCAGCCAGCCAG
+  ecoli_2296329_A/C
+  ecoli_2330469_A/T
+  ecoli_2330472_A/T
+  ecoli_2416966_C/T
+  ecoli_2671373_T/G
+  ecoli_2671376_C/A
+  ecoli_2682710_G/C
+  ecoli_2682764_C/T
+  ecoli_3090762_C/A
+  ecoli_3090763_T/G
+  ecoli_3268057_T/C
+  ecoli_3351282_C/T
+  ecoli_3351282_C/T
+  ecoli_3351282_C/T
+  ecoli_3351282_C/T
+  ecoli_3351282_C/T
+  ecoli_3351282_C/T
+  ecoli_3351282_C/T
+  ecoli_3509753_T/C
+  ecoli_3568506_T/G
+  ecoli_3762120_C/A
+  ecoli_4029556_G/T
+  ecoli_4029559_A/C
+  ecoli_4192865_G/A
+  ecoli_4192865_G/A
+  ecoli_4192865_G/A
+  ecoli_4192865_G/A
+  ecoli_4497049_T/G
+  ecoli_4503866_T/C
+  ecoli_4504217_G/A
+  ecoli_4504253_G/A
+  ecoli_4505396_T/C
+  ecoli_4505407_G/A
+  ecoli_4506070_A/T
+  ecoli_4593578_C/T
+  ecoli_4593578_C/T
+  ecoli_4593578_C/T
+
+Q2: Which variants are shared between two or more samples?
+  ecoli_1329520_T/G (In samples SRR2584403_1 and SRR2584404_1)
+  ecoli_4141016_C/A (In samples SRR2584403_1 and SRR2584404_1)
+
+Q3: Are there any variants that stand out in terms of their likely biological impact?
+None of the variants stood out to me in terms of their biological impact. This is because all of the variants were either in intergenic regions, or up or downstream of a gene. This means that even insertions or deletions of nucleotides would not likely cause a frameshift mutation as they are not in coding regions. The single nucleotide variants, insertions, and deletions listed could affect regulatory regions and may change gene expression in that way. For example, the binding affinity for an enhancer or promoter could be decreased, decreasing transcription and subsequent gene expression. Of all the variants, I would think the ones with insertions and deletions (ecoli_4530779_CACCCTAACCCT/CACCCTAACCCTAACCCT, ecoli_806310_ATT/AT, ecoli_2103919_ACAGCCAGCCAGCCAGCCAGCCAGCCAGCCAG/ACAGCCAGCCAGCCAGCCAGCCAGCCAGCCAGCCAG) would cause the most disruption to any regulatory RNA trying to base pair or protein trying to bind because the spacing has changed, but this is context-dependent and difficult to assess from this information alone. Variants would have stood out if they showed changes to the coding sequences of a gene, particularly frameshifts or gaining or losing stop and/or start codons. Missense mutations and inframe deletions and/or insertions would have also had more biological relevance.
